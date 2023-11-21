@@ -36,7 +36,7 @@ details.innerHTML = table;
 }
 const saveUserForm = (event) => {
     event.preventDefault();
-    const name = document.getElementById("name").value;
+    const name = document.getElementById("firstname").value;
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     const dob = document.getElementById("dob").value;
